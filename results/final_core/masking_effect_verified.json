@@ -1,0 +1,10 @@
+{
+  "unmasked_accuracy": 0.9560906515580736,
+  "masked_accuracy": 0.9036827195467422,
+  "accuracy_drop": 0.052407932011331426,
+  "unmasked_macro_f1": 0.937917619580584,
+  "masked_macro_f1": 0.8628707925737629,
+  "macro_f1_drop": 0.07504682700682108,
+  "exact_title_occurrence_before_masking_rate": 0.465,
+  "exact_title_occurrence_after_masking_rate": 0.0
+}

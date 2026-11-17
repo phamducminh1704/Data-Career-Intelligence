@@ -1,0 +1,13 @@
+{
+  "raw_merged_rows": 12217,
+  "after_exact_summary_dedup": 9640,
+  "after_min_200_chars": 9629,
+  "final_four_role_rows": 3530,
+  "class_counts": {
+    "Data Analyst": 1490,
+    "Data Engineer": 1116,
+    "Data Scientist": 698,
+    "Machine Learning Engineer": 226
+  },
+  "duplicate_normalized_summaries_after_cleaning": 0
+}

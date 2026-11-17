@@ -1,0 +1,7 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,note
+TF-IDF LinearSVC unmasked,0.9560906515580736,0.9409682974343124,0.9351973688924814,0.937917619580584,Leakage diagnostic only; NOT eligible final model
+TF-IDF LinearSVC masked,0.9036827195467422,0.8640997819644383,0.8620395430470821,0.8628707925737629,Primary leakage-controlled text model
+Hybrid masked TF-IDF + strict skills LinearSVC,0.8909348441926346,0.8549201075779149,0.8501550660893966,0.8522376220110486,Proposed hybrid; did not beat masked text-only model
+Legacy skills LR,0.7861189801699717,0.725502720691318,0.7848028484675639,0.7455891940081897,Repro baseline: provided skill field
+Strict masked-description skills LR,0.7889518413597734,0.7261166907548714,0.7752715149421894,0.7432965264868278,40 skills extracted from masked description
+Strict skills Decision Tree,0.7209631728045326,0.654716805200341,0.7167696618880897,0.6660722933411389,Interpretable nonlinear baseline
